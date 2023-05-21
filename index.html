@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johan Elber">
+    <meta name="description" content="Proyecto FrontEnd Agency">
+    <title>Angency Site Web</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/globales.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__contenido contenedor">
+            <a href="/" class="logo">
+                Agency
+            </a>
+            <div class="header__right">
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href="#" class="nav__link">Home</a></li>
+                        <li><a href="#services" class="nav__link">Services</a></li>
+                        <li><a href="#works" class="nav__link">Works</a></li>
+                        <li><a href="#about" class="nav__link">About</a></li>
+                        <li><a href="#" class="nav__link">Blog</a></li>
+                        <li><a href="#" id="menu-contacto" class="nav__link nav__link--borde">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="buscador">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="burger">
+                    <div class="linea1"></div>
+                    <div class="linea2"></div>
+                    <div class="linea3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER FIN -->
+
+
+    <main id="main-content">
+
+        <!-- INICIO -->
+        <section class="inicio">
+            <div class="inicio__overlay"></div>
+            <div class="inicio__img">
+                <picture>
+                    <img loaging="lazy" width="auto" height="auto" src="img/fondoMessiDesktop-min.png" alt="Inicio Desktop" class="inicio__img--desktop">
+                    <img loaging="lazy" width="auto" height="auto" src="img/fondoMessiMobile-min.png" alt="Inicio Mobile" class="inicio__img--mobile">
+                </picture>
+            </div>
+            <div class="inicio__contenido contenedor">
+                <div class="inicio__titulo">
+                    <h4>Creative Mind, Creative Works.</h4>
+                    <h1>We are digital agency.</h1>
+                    <a href="#" class="inicio__btn btn__principal">Getting Started</a>
+                </div>
+
+                <div class="inicio__cards">
+                    <div class="inicio__card">
+                        <div class="card__icon">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <div class="card__descripcion">
+                            <h3>Future Concept.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit teilus.</p>
+                        </div>
+                    </div>
+                    <div class="inicio__card">
+                        <div class="card__icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div class="card__descripcion">
+                            <h3>The Big Ideas.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit teilus.</p>
+                        </div>
+                    </div>
+                    <div class="inicio__card">
+                        <div class="card__icon">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div class="card__descripcion">
+                            <h3>Creative Solutions.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit teilus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INICIO FIN -->
+
+        <!-- SERVICES -->
+        <section id="services" class="services bg-1 seccion-padding">
+            <div class="services__titulo contenedor">
+                <div class="seccion__titulo">
+                    <h2>Services.</h2>
+                    <h4>Our services for clients</h4>
+                </div>
+            </div>
+            <div class="services__cards contenedor">
+                <div class="services__card">
+                    <div class="card__icon">
+                        <i class="fa-solid fa-signal"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h3>Digital Strategy</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h3>UX Desings</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__icon">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h3>UI Desings</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__icon">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h3>Desing Concept</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__icon">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h3>Media Pairing</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES FIN -->
+
+        <!-- WORKS -->
+        <section id="works" class="works bg-2 seccion-padding">
+            <div class="works__titulo contenedor">
+                <div class="seccion__titulo">
+                    <h2>Works.</h2>
+                    <h4>Things we've made</h4>
+                </div>
+                <div class="services__viewAll">
+                    <a href="#" class="services__btn btn__principal">View All</a>
+                </div>
+            </div>
+            <div class="works__img contenedor">
+                <div class="work__img">
+                    <img src="img/works/messi.jpg" alt="Messi">
+                </div>
+                <div class="work__img">
+                    <img src="img/works/cristiano.jpg" alt="Cristiano">
+                </div>
+                <div class="work__img">
+                    <img src="img/works/neymar.jpg" alt="Neymar">
+                </div>
+                <div class="work__img">
+                    <img src="img/works/kaka.jpg" alt="Kaká">
+                </div>
+                <div class="work__img">
+                    <img src="img/works/xavi.jpg" alt="Xavi">
+                </div>
+                <div class="work__img">
+                    <img src="img/works/iniesta.jpg" alt="Iniesta">
+                </div>
+            </div>
+        </section>
+        <!-- WORKS FIN -->
+
+        <!-- ABOUT -->
+        <section id="about" class="about bg-1 seccion-padding">
+            <div class="about__titulo seccion__titulo contenedor">
+                <h2>About.</h2>
+                <h4>We are more than digital agency</h4>
+            </div>
+            <div class="about__info contenedor">
+                <div class="about__imagenes">
+                    <div class="about__imagen">   
+                        <img src="img/about/messi1.jpg" alt="Messi">
+                        <div class="about__imagen--info">
+                            <h4>Team Work</h4>
+                            <p>Committed and creative</p>
+                        </div>
+                    </div>
+                    <div class="about__imagen">   
+                        <img src="img/about/messi.jpg" alt="Messi">
+                        <div class="about__imagen--info">
+                            <h4>Philosophy</h4>
+                            <p>Trust pays off</p>
+                        </div>
+                    </div>
+                    <div class="about__imagen">   
+                        <img src="img/about/cristiano.jpg" alt="Cristiano">
+                        <div class="about__imagen--info">
+                            <h4>Office</h4>
+                            <p>Somewhere on earth</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="about__descripcion">
+                    <li class="descripcion">
+                        <h4>Who we are</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa cum quasi, ducimus exercitationem cupiditate quaerat minus quod totam nisi maiores.</p>
+                    </li>
+                    <li class="descripcion">
+                        <h4>Our philosophy</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa cum quasi, ducimus exercitationem cupiditate quaerat minus quod totam nisi maiores.</p>
+                    </li>
+                    <li class="descripcion">
+                        <h4>How are work</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa cum quasi, ducimus exercitationem cupiditate quaerat minus quod totam nisi maiores.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ABOUT FIN -->
+
+        <!-- TESTIMONIALS-->
+        <section id="testimonials" class="testimonials bg-2 seccion-padding">
+            <div class="testimonials__titulo seccion__titulo contenedor">
+                <h2>Testimonials.</h2>
+                <h4>We are more than digital agency</h4>
+            </div>
+            <div class="testimonials__contenido contenedor">
+                <!-- Slider main container -->
+                <div class="swiper mySwiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper" id="testimonialesCards">
+                        <!-- Slides -->
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- MARCAS -->
+                <ul class="marcas contenedor">
+                    <li><i class="fa-solid fa-poo-storm"></i></li>
+                    <li><i class="fa-brands fa-usps"></i></li>
+                    <li><i class="fa-solid fa-microphone-lines"></i></li>
+                    <li><i class="fa-solid fa-mask-ventilator"></i></li>
+                    <li><i class="fa-solid fa-kaaba"></i></li>
+                    <li><i class="fa-solid fa-horse-head"></i></li>
+                    <!-- <li><i class="fa-solid fa-handshake-simple"></i></li> -->
+                </ul>
+            </div>
+        </section>
+        <!-- TESTIMONIALS FIN -->
+
+        <!-- LATEST NEWS -->
+        <section id="latest" class="latest bg-1 seccion-padding">
+            <div class="latest__titulo seccion__titulo contenedor">
+                <h2>Latest News.</h2>
+                <h4>Check out some of our news</h4>
+            </div>
+            <div class="latest__contenido contenedor">
+                <div class="latest__card"> <!-- latest card -->
+                    <div class="latest__card--img">
+                        <img src="img/latest/messi.jpg" alt="Messi">
+                    </div>
+                    <div class="latest__card--info">
+                        <h4>Could this VR sketching tool be coming of age for designers in the future?</h4>
+                        <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Maecenas scelerisque ornare tincidunt....</p>
+                        <a href="#" class="latest__btn btn__principal">Read More</a>
+                    </div>
+                </div> <!-- latest card -->
+                <div class="latest__card"> <!-- latest card -->
+                    <div class="latest__card--img">
+                        <img src="img/latest/cristiano.jpg" alt="Cristiano">
+                    </div>
+                    <div class="latest__card--info">
+                        <h4>Could this VR sketching tool be coming of age for designers in the future?</h4>
+                        <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Maecenas scelerisque ornare tincidunt....</p>
+                        <a href="#" class="latest__btn btn__principal">Read More</a>
+                    </div>
+                </div> <!-- latest card -->
+                <div class="latest__card"> <!-- latest card -->
+                    <div class="latest__card--img">
+                        <img src="img/latest/neymar.jpg" alt="Neymar">
+                    </div>
+                    <div class="latest__card--info">
+                        <h4>Could this VR sketching tool be coming of age for designers in the future?</h4>
+                        <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Maecenas scelerisque ornare tincidunt....</p>
+                        <a href="#" class="latest__btn btn__principal">Read More</a>
+                    </div>
+                </div> <!-- latest card -->
+            </div>
+        </section>
+        <!-- LATEST NEWS FIN -->
+        
+        <!-- PROJECT -->
+        <section class="project bg-1">
+            <div class="project__contenido contenedor">
+                <ul class="project__social">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                <h2>Have any project in mind?</h2>
+                <a href="#" class="project__btn btn__principal">Make Inquiry</a>
+            </div>
+        </section>
+        <!-- PROJECT FIN -->
+    
+    </main>
+
+    <footer class="footer">
+        <div class="footer__principal contenedor">
+            <div class="footer__principal--row footer__principal--row1">
+                <a href="index.html" class="logo">Agency</a>
+                <p>We are more than a digital agency</p>
+            </div>
+            <div class="footer__principal--row">
+                <h4>Contact Us</h4>
+                <ul class="footer__menu">
+                    <li>
+                        <a href="tel:987456214">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>(+51) 987456214</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:correo@correo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>correo@correo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Lima, PERÚ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Lunes a Viernes</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__principal--row">
+                <h4>Our Services</h4>
+                <ul class="footer__menu">
+                    <li>
+                        <a href="#">
+                            Single Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Services 1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Services 2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Works
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__principal--row">
+                <h4>About Us</h4>
+                <ul class="footer__menu">
+                    <li>
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact Us 1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact Us 2
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer__separador">
+        <div class="footer__secundario contenedor">
+            <div class="terminos">
+                <p class="copy">&copy;Copyright 2023 Agency.</p>
+                <p class="privacity">Privacy Policy</p>
+                <p class="terms">Terms of use</p>
+            </div>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Maecenas scelerisque ornare tincidunt.</p>
+                <ul class="footer__social">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- APP JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>

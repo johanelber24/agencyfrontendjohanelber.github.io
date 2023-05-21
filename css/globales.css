@@ -1,0 +1,92 @@
+/* GOOGLE FONTS */
+/* URBANIST */  
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;900&display=swap');
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* FONT AWESOME */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+/* MARCA DE AGUA */
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display: none;
+}
+
+/* GENERALES */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(30, 30, 30);
+    /* max-width: 180rem; OPCIONAL */
+    margin: 0 auto;
+}
+h1,h2,h3,h4{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    margin: 0 0 1rem 0;
+}
+p{
+    margin: 0 0 1rem 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width: 100%;
+    padding: 0 1.2rem;
+}
+@media (min-width: 575px) {
+    .contenedor{
+        max-width: 54rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 768px) {
+    .contenedor{
+        max-width: 72rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 992px) {
+    .contenedor{
+        max-width: 96rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1200px) {
+    .contenedor{
+        max-width: 114rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
